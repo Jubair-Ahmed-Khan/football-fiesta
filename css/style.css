@@ -1,0 +1,77 @@
+/* --------------------fonts-------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+/*-----------------  common style------------------------ */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+h3{
+    font-size: 25px;
+    color: orange;
+}
+p{
+   color: grey;
+
+}
+
+/* ----------------------- header area ----------------- */
+
+header{
+    background: #16358f;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;    
+}
+
+.banner{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.banner-text h1{
+    color: white;
+    font-size: 70px;
+    line-height: 1.4em;
+}
+
+.banner-text a{
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px ;
+}
+
+.banner-text a:hover{
+    background-color:coral;
+    color: black;
+    transition: background-color,color 1s linear; 
+    transform: scaleY(1.2);
+}
+
+.banner-text a i{
+    padding-left: 10px;
+}
+
+.banner img {
+    transition: width 1s ease-in;
+}
+
+.banner img:hover {
+    width: 105%;
+    
+}
+
+/* -----------------------End header area----------------- */
