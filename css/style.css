@@ -21,6 +21,7 @@ h3{
     font-size: 25px;
     color: orange;
 }
+
 p{
    color: grey;
 
@@ -79,19 +80,23 @@ header{
 
 
 /* ------------------- players and blog area ------------ */
+
 main{
     display: flex;
     justify-content: center;   
 }
+
 .container{   
     width: 80%;
     margin: 50px 0;      
 }
+
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 30px;
 }
+
 .player{
     margin: 15px;
     padding: 15px;
@@ -99,3 +104,41 @@ main{
 }
 
 /* -------------------End players and blog area ------------ */
+
+
+/* ------------------------exhtra section  ---------------------- */
+
+.extra-section{
+    width:60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 100px;
+}
+.blog-heading{
+    margin-top: 100px;
+    text-align: center;
+    color: orange;
+}
+.blog{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blog p{
+    padding-left: 10px;
+}
+
+.blog a {
+	color:red;
+}
+
+.match{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+/* ------------------------End extra section ---------------------- */
