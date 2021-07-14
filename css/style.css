@@ -142,3 +142,27 @@ main{
 }
 
 /* ------------------------End extra section ---------------------- */
+
+
+/* ------------------------ footer area ---------------------- */
+
+footer{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-logo img{
+    width: 400px;
+    
+}
+
+.social-link a img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.copyright{
+    color: #16358f;
+    
+}
+/* ------------------------End footer area ---------------------- */
